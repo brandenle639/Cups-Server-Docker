@@ -18,4 +18,5 @@ port - Changes the port number for the cups server in the config file
 
 # Notes
 Runs as a non-root user
+
 Default account:password - cup:cup
