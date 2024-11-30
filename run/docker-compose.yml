@@ -1,0 +1,12 @@
+version: "3"
+services:
+    cupsd:
+        network_mode: host
+        #environment:
+        #    - pass=value
+        #    - port=9191
+        volumes:
+            - /var/run/dbus:/var/run/dbus
+            - ./data/:/etc/cups:z
+        container_name: cupsd
+        image: cups:{Your Version Number}
