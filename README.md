@@ -13,6 +13,7 @@ Run with: docker-compose up -d
 
 # Docker Compose Enviromental Variables:
 pass - Changes the cup account password
+
 port - Changes the port number for the cups server in the config file
 
 # Notes
